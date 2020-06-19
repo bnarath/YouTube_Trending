@@ -1,6 +1,8 @@
 #Remove api_keys.py tracking
 api_keys.py
 VideoDF.pkl
+google_maps.py
+nyt_archive.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
