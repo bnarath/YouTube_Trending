@@ -18,7 +18,7 @@ Cleaned and merged Data is uploaded [here](https://drive.google.com/file/d/1VLH2
 **What is typically the pattern of trend ? Is it continuous trending or sporadic ?**
 **Trending videos show a continuous trend rather than intermittent**
 
-![Total_Trending_Vs_Continuous_Trending](youtube-trending/Image/Total_Trending_Vs_Continuous_Trending.png')
+![Total_Trending_Vs_Continuous_Trending](youtube-trending/Image/Total_Trending_Vs_Continuous_Trending.png)
 
 **A very high correlation (0.98) between the total trend days and the maximum of  continuous trend days show Trending is a continuous pattern** 
 **Also, 99% of the trends is continuous without a break and only 1% had a break in trending**
