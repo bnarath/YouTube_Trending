@@ -1,5 +1,6 @@
 #Remove api_keys.py tracking
 api_keys.py
+VideoDF.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
