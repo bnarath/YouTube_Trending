@@ -13,7 +13,38 @@ The Data set is consists of information about the trending videos for a span of 
 ## Data Path:
 Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle file (due the file size limitation in github)
 
-## Insight1
+## Research Questions
+
+1. Regional Analysis: How does trending in different countries impact one another?
+    - Which countries generate videos that trend on Youtube and which consume them?
+    - Which categories of videos trend more often in different countries? 
+
+2. Popularity Analysis: What impacts how long videos trend on Youtube? 
+  Factors considered:
+  - Country of viewership 
+  - Video language 
+  - Video features
+  - Interval between publishing and when videos first trending  
+
+## Findings
+
+Overall, the vast majority (92.5%) of videos trended in a single country.
+
+
+
+**For six of ten countries, the majority of videos trend for a single day.** In Korea, just under half of videos trend for 2 to 5 days whereas over half of videos in India trended for that interval. **US and UK are outliers amoung the countries as the majority of videos that trended in these countries did so for more than five days.** 
+
+
+Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.     
+
+
+
+
+
+
+
+
+# Framing Popularity
 
 **What is typically the pattern of trend ? Is it continuous trending or sporadic ?**
 **Trending videos show a continuous trend rather than intermittent**
