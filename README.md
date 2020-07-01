@@ -129,6 +129,13 @@ The more countries videos trended in, the greater the proportion that trend for 
 
 ![Days_By_countries](youtube-trending/Image/Days_Videos_Trended_by_Country.png)
 
+![Popularity_Days_By_countries_Trended](youtube-trending/Image/PopularityVsVideoid.png)
+
+* Each of the top longest trending videos have trended the longest in the UK
+* The same videos that achieves such a high popularity in the UK by trending for 38 days only trends for 0 to 6 days in most other countries and in the US trends for about 10 to 20 days 
+* There is a very large difference in the number of days videos trend in UK compared to other countries
+* This raises the question do all occurrences of total trending days that are higher than 20 occur in UK ? If this is the case why does this happen?
+
 
 **Time To trend Vs Trending Days**
 
