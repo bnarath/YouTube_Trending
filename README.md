@@ -1,7 +1,15 @@
 # YouTube Trending
 
-![Headline](youtube-trending/Image/clubbed.gif)
+Before we begin, let us introduce some of the most trending videos in youtube across the globe!!!
 <img src="youtube-trending/Image/clubbed.gif" alt="Headline" width="1000"/>
+
+After watching a couple of them, we asked ourselves, what makes them popular !!! and what if we could predict the popularity !!! 
+Afterall, we want to help the struggling youtuber/influencer community by providing them the valuable insights on trending. At the same time, predicting popularity would help the advertising firms to identify the best videos to invest upon. 
+
+Above all, we want to know, if there is any interesting insights underlying the trending patterns ?
+
+This project is all about answering these questions. Stay tuned !!!
+
 
 ## Team Members
 
