@@ -25,7 +25,12 @@ After finding [this](https://www.kaggle.com/datasnaek/youtube-new) dataset in [K
 
 The Data set consists of useful but limited details on the trending videos for a span of 205 days across 10 countries. It is mentioned that "To determine the top-trending videos, YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes)" which is not revealed publicly. Though, many interesting explorations were already done by many Kagglers on the same dataset, we identified a huge scope ahead; especially, in the direction of predicting popularity and identifying behavioural patterns. This deemed possible by identifying and formulating usecases and solving them by incorporating many more features with API retrieved data, engineering new features, and building efficient models etc.
 
-## Data Modeling:
+## Data Retrieval and Modelling:
+
+The Data Retrieval and Modelling of this project are explained in the below ERD(Entity Relationship Diagram)
+<img src="youtube-trending/Image/Data_Modeling.png" alt="Data_Modelling" width="1000"/>
+
+
 Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle file (due the file size limitation in github)
 
 ## Research Questions
