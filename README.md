@@ -33,12 +33,11 @@ Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive
 
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
-
 ![No_of_countries](youtube-trending/Image/No._of_Countries_Video_Trended_In.png)
-
 
 Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.   
 
+![Trending_in_Multiple_Countries](youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png)
 
 ![Country_Language_Composition](youtube-trending/Image/Lang1.png)
 
@@ -58,7 +57,6 @@ We define popularity(longevity) as the number the days of trending. Almost all c
 However, it looks like "Non-profit & Activism" tend to have relatively shorter limelight.
 
 
-![Trending_in_Multiple_Countries](youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png)
 
 **Similarity between countries based on what they watch**
 We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When,  only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly Immigration)
