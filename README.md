@@ -28,7 +28,7 @@ The Data set consists of useful but limited details on the trending videos for a
 ## Data Retrieval and Modelling:
 
 The Data Retrieval and Modelling of this project are explained in the below ERD(Entity Relationship Diagram)
-<img src="youtube-trending/Image/Data_Modeling.png" alt="Data_Modelling" width="1000"/>
+<img src="youtube-trending/Image/Data_Modelling.png" alt="Data_Modelling" width="1000"/>
 
 
 Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle file (due the file size limitation in github)
