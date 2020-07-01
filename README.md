@@ -30,12 +30,19 @@ Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive
 
 Overall, the vast majority (92.5%) of videos trended in a single country.
 
-
+![No_of_countries](youtube-trending/Image/No.\ of\ Countries\ Video\ Trended\ In.png)
 
 **For six of ten countries, the majority of videos trend for a single day.** In Korea, just under half of videos trend for 2 to 5 days whereas over half of videos in India trended for that interval. **US and UK are outliers amoung the countries as the majority of videos that trended in these countries did so for more than five days.** 
 
 
 Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.     
+
+
+**Similarity between countries based on what they watch**
+We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When,  only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly Immigration)
+
+![Similarity_Correlation_Matrix](youtube-trending/Image/Correlation_on_video_watch_with_360217.png)
+
 
 
 
