@@ -30,7 +30,7 @@ Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive
 
 Overall, the vast majority (92.5%) of videos trended in a single country.
 
-![No_of_countries](youtube-trending/Image/No.\ of\ Countries\ Video\ Trended\ In.png)
+![No_of_countries](youtube-trending/Image/No._of_Countries_Video_Trended_In.png)
 
 **For six of ten countries, the majority of videos trend for a single day.** In Korea, just under half of videos trend for 2 to 5 days whereas over half of videos in India trended for that interval. **US and UK are outliers amoung the countries as the majority of videos that trended in these countries did so for more than five days.** 
 
