@@ -1,6 +1,7 @@
 # YouTube Trending
 
-![Headline](youtube-trending/Image/clubbed.gif =100)
+![Headline](youtube-trending/Image/clubbed.gif)
+<img src="youtube-trending/Image/clubbed.gif" alt="Headline" width="1000"/>
 
 ## Team Members
 
