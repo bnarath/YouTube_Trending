@@ -51,7 +51,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
     1. [How similar or different are the countries based on what(which videos) gets trending in countries?](#)
     1. [How similar or different are the countries based on the categories they like?](#)
 
-1. Popularity Analysis: What impacts how long videos trend on Youtube?   
+1. Popularity Analysis: What impacts how long videos trend on Youtube?  
+
    Factors considered:
      1. [Country of viewership](#) 
      1. [Video language](#) 
