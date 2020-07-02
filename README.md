@@ -32,7 +32,11 @@ The Data Retrieval and Modelling of this project are explained in the below ERD(
 
 
 
-Many data frames are created with this data for various analyses and model building. Because of the file size limits in GitHub, they are uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle files.
+Many data frames are created with this data for various analyses and model building. Because of the file size limits in GitHub, they are uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle files. Please refer the table below for the details on the files.
+
+<img src="youtube-trending/Image/FileNames.png" alt="Data_Modelling" width="800"/>
+
+
 
 ### Codebase for Data Retrieval and Cleanup
 We separated out the codebase of data modelling and clean-up from analysis and the model. Please refer the codebase for data retrieval and clean-up [here](youtube-trending/Code/youtube_trending_preprocessing.ipynb).
