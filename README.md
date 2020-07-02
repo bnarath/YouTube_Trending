@@ -63,38 +63,43 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
-<img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries" width="500"/>
+<img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries" width="700"/>
 
 
 
 
 **Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.**
 
-![Trending_in_Multiple_Countries](youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png)
-
+<img src="youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png" alt="Trending_in_Multiple_Countries" width="700"/>
 
 
 
 **As we would expect, The local language seems to play a big role in trending.**   
 **We studied the ratio of languages of trending videos across countries (English is Top3 for all except Russia, Japan and Korea).**
 
-<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="500" height="500"/>
+<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="700" height="700"/>
+
+
+
+**Also, Videos made in English trend significantly longer than that of other languages.**
+
+<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending" width="700" height="1000"/>
 
 
 
 
-![Language_Vs_Trending](youtube-trending/Image/Popularity_for_Languages.png)
+**We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!**
 
-Videos made in English trend significantly longer than that of other languages.
+<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Compositio" width="700" height="700"/>
 
-![Country_Category_Composition](youtube-trending/Image/Cat1_with_360217.png)
 
-We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia. In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!
 
-![Category_Vs_Trending](youtube-trending/Image/Popularity_Across_Categories.png)
 
-We define popularity(longevity) as the number the days of trending. Almost all categories have a varying popularity
-However, it looks like "Non-profit & Activism" tend to have relatively shorter limelight.
+**We define popularity(longevity) as the number the days of trending. Almost all categories have a varying popularity.**  
+**However, it looks like "Non-profit & Activism" tend to have relatively shorter limelight.**
+
+<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="700" height="1000"/>
+
 
 
 
