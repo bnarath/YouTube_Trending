@@ -90,7 +90,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!**
 
-<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Compositio" width="700" height="900"/>
+<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition" width="700" height="900"/>
 
 
 
@@ -118,7 +118,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 - **Cluster4 - UK & US - Common interest in Entertainment, Music**
 
 
-![Country_Relationships](youtube-trending/Image/country_cluster_sc_giffy.gif)
+<img src="youtube-trending/Image/country_cluster_sc_giffy.gif" alt="Country_Cluster" width="800"/>
 
 
 
