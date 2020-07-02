@@ -165,7 +165,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ![Timing_of_Trending_vs_Region](youtube-trending/Image/Whether_videos_that_trended_in_multiple_countries_first_did_so_on_the_same_day_or_different_days.png)
 
-
+<br>
+<br>
 
 ## Popularity Analysis: Findings
 
@@ -206,26 +207,27 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-* Each of the top longest trending videos have trended the longest in the UK
-* The same videos that achieves such a high popularity in the UK by trending for 38 days only trends for 0 to 6 days in most other countries and in the US trends for about 10 to 20 days 
-* There is a very large difference in the number of days videos trend in UK compared to other countries
-* This raises the question do all occurrences of total trending days that are higher than 20 occur in UK ? If this is the case why does this happen?
+**Top Trending Videos Vs. Viewing Countries**
+- Each of the top longest trending videos have trended the longest in the UK
+- The same videos that achieves such a high popularity in the UK by trending for 38 days only trends for 0 to 6 days in most other countries and in the US trends for about 10 to 20 days 
+- There is a very large difference in the number of days videos trend in UK compared to other countries
+- This raises the question do all occurrences of total trending days that are higher than 20 occur in UK ? If this is the case why does this happen?
 
-<img src="youtube-trending/Image/PopularityVsVideoid.png" alt="Popularity_Vs_Videoid" width="1000" height="700"/>
+<img src="youtube-trending/Image/PopularityVsVideoid.png" alt="Popularity_Vs_Videoid"/>
 
+<hr>
 
-**Time To trend Vs Trending Days**
-
-Most of the trending videos were published in less than a month ago. There are only few videos those are lateblooms !
+**Time To trend Vs Trending Days: Most of the trending videos were published in less than a month ago. There are only few videos those are lateblooms !**
 
 ![Latebloom_perc](youtube-trending/Image/Perc_of_Lateblooms.png)
 
-However, given that a latebloom video is trending, the chance of this video trends >5 days increases with its age !!
+**The so called "latebloom effect" : Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age !!**
+**This shows some light on the external factors behind a video trending**
 
 ![Latebloom_effect](youtube-trending/Image/Latebloom_effect.png)
 
 
-
+<hr>
 
  
 
