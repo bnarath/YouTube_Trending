@@ -69,7 +69,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 
-Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.   
+**Videos that trended in multiple countries most often trended in Canada (over 1 in 4)  followed by Germany (over 1 in 5) and France (just under 1 in 6).  Few Videos that trended in multiple countries trended in the US,  suggesting it has less impact on trending in other countries.**   
 
 ![Trending_in_Multiple_Countries](youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png)
 
