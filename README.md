@@ -32,7 +32,10 @@ The Data Retrieval and Modelling of this project are explained in the below ERD(
 
 
 
-Cleaned and merged Data is uploaded [here: name-Popularity_DF.pkl](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle file (due the file size limitation in github)
+Many data frames are created with this data for various analyses and model building. Because of the file size limits in GitHub, they are uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle files.
+
+### Codebase for Data Retrieval and Cleanup
+We separated out the codebase of data modelling and clean-up from analysis and the model. Please refer the codebase for data retrieval and clean-up [here](youtube-trending/Code/youtube_trending_preprocessing.ipynb).
 
 ## Research Questions
 
