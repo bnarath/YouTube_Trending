@@ -110,13 +110,12 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 
-**Similarity between countries based on the categories they watch**
-We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare
+**Similarity between countries based on the categories they watch: We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare**
 
-Cluster1 - Canada, Germany,and India - Common interest in Entertainment, News & Politics
-Cluster2 - Japan, Mexico & France - Common interest in Entertainment, People&Blogs, Sports
-Cluster3 - Korea & Russia - Common interest in Entertainment, News & Politics, People&Blogs
-Cluster4 - UK & US - Common interest in Entertainment, Music
+- **Cluster1 - Canada, Germany,and India - Common interest in Entertainment, News & Politics**
+- **Cluster2 - Japan, Mexico & France - Common interest in Entertainment, People&Blogs, Sports**
+- **Cluster3 - Korea & Russia - Common interest in Entertainment, News & Politics, People&Blogs**
+- **Cluster4 - UK & US - Common interest in Entertainment, Music**
 
 
 ![Country_Relationships](youtube-trending/Image/Country_Cat_Cluster.png)
