@@ -63,7 +63,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
-<img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries" width="700"/>
+<img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries"/>
 
 
 
@@ -103,10 +103,11 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 
-**Similarity between countries based on what they watch**
-We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When,  only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly Immigration)
+**Similarity between countries based on what they watch: We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
 
-![Country_Relationships](youtube-trending/Image/Country_Relationships.png)
+<img src="youtube-trending/Image/Country_Relationships.png" alt="Country_Relationships" width="1000" height="1000"/>
+
+
 
 **Similarity between countries based on the categories they watch**
 We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare
