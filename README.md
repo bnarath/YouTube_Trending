@@ -14,7 +14,6 @@ Afterall, we want to help the struggling youtuber/influencer community by provid
 
 **This project is all about our journey towards finding these answers. Stay tuned !!!**
 
-<hr>
 
 ## Team Members
 
@@ -67,12 +66,15 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries"/>
 
 
+<hr>
 
 
 **Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.**
 
 <img src="youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png" alt="Trending_in_Multiple_Countries"/>
 
+
+<hr>
 
 
 **As we would expect, The local language seems to play a big role in trending.**   
@@ -81,12 +83,15 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="700" height="900"/>
 
 
+<hr>
+
 
 **Also, Videos made in English trend significantly longer than that of other languages.**
 
 <img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending"/>
 
 
+<hr>
 
 
 **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!**
@@ -94,6 +99,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition" width="700" height="900"/>
 
 
+<hr>
 
 
 **We define popularity(longevity) as the number the days of trending. Almost all categories have a varying popularity.**  
@@ -102,6 +108,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="800"/>
 
 
+<hr>
 
 
 **Similarity between countries based on what they watch: We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
@@ -109,6 +116,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <img src="youtube-trending/Image/country_relations_sc_giffy.gif" alt="Country_Relationships" width="850"/>
 
+
+<hr>
 
 
 **Similarity between countries based on the categories they watch: We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare**
@@ -122,6 +131,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <img src="youtube-trending/Image/country_cluster_sc_giffy.gif" alt="Country_Cluster" width="800"/>
 
 
+<hr>
+
 
 **Origin of Videos**
 Most video have an unknown origin. Of those that do, the highest proportion originate from the US. 
@@ -131,6 +142,8 @@ Most video have an unknown origin. Of those that do, the highest proportion orig
 ![Origin](youtube-trending/Image/Origin_of_Channels.png)
 
 
+<hr>
+
 
 Canada, Germany and France watch videos originating from over 80 known countries. 
 
@@ -139,12 +152,16 @@ Canada, Germany and France watch videos originating from over 80 known countries
 ![Origins_by_viewership](youtube-trending/Image/Variation_in_Origin_of_Videos_Watched_in_Each_Country.png)
 
 
+<hr>
+
 
 Canada and the UK watched little content known to originate from within the respective countries, rather most videos watched in these countries orignate in the US. Comparatively, most videos watched in other countries originate from within the respective countries.
 
 
 ![Origins_vs_viewership](youtube-trending/Image/Source_of_Videos_watched_by_Country.png)
 
+
+<hr>
 
 
 **Impact of trending in one region on trending in Others**
@@ -153,12 +170,19 @@ Just under 8 in 10 videos that trended in multple countries first did so on same
 
 ![Timing_of_Trending_vs_Region](youtube-trending/Image/Whether_videos_that_trended_in_multiple_countries_first_did_so_on_the_same_day_or_different_days.png)
 
+
+<hr>
+
+<hr>
+
+
 ## Popularity Analysis: Findings
 
 **What is typically the pattern of trend ? Is it continuous trending or sporadic ?**
 **Trending videos show a continuous trend rather than intermittent**
 
 ![Total_Trending_Vs_Continuous_Trending](youtube-trending/Image/Total_Trending_Vs_Continuous_Trending.png)
+
 
 
 **A very high correlation (0.98) between the total trend days and the maximum of  continuous trend days show Trending is a continuous pattern** 
