@@ -83,7 +83,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Also, Videos made in English trend significantly longer than that of other languages.**
 
-<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending" width="700" height="1000"/>
+<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending"/>
 
 
 
@@ -188,8 +188,7 @@ The more countries videos trended in, the greater the proportion that trend for 
 * There is a very large difference in the number of days videos trend in UK compared to other countries
 * This raises the question do all occurrences of total trending days that are higher than 20 occur in UK ? If this is the case why does this happen?
 
-![Popularity_Days_By_countries_Trended](youtube-trending/Image/PopularityVsVideoid.png)
-
+<img src="youtube-trending/Image/PopularityVsVideoid.png" alt="Popularity_Vs_Videoid" width="1000" height="700"/>
 
 
 **Time To trend Vs Trending Days**
