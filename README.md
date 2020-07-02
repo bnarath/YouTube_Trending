@@ -3,7 +3,7 @@
 **Before we begin, let us introduce some of the most trending videos in youtube across the globe!!!**
 
 
-<img src="youtube-trending/Image/clubbed.gif" alt="Headline" width="1000"/>
+<img src="youtube-trending/Image/Collage_Giffy.gif" alt="Headline" width="1000"/>
 
 
 
