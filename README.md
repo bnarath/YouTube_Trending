@@ -118,7 +118,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 - **Cluster4 - UK & US - Common interest in Entertainment, Music**
 
 
-![Country_Relationships](youtube-trending/Image/Country_Cat_Cluster.png)
+![Country_Relationships](youtube-trending/Image/country_cluster_sc_giffy.gif)
 
 
 
