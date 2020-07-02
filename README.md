@@ -10,9 +10,9 @@
 **After watching a couple of them, we asked ourselves, what makes the videos popular !!! and what if we could predict the popularity !!! 
 Afterall, we want to help the struggling youtuber/influencer community by providing them the valuable insights on trending. At the same time, predicting popularity would help the advertising firms to identify the best videos to invest upon.** 
 
-**Above all, we want to know, if there is any interesting insights underlying the trending patterns ?**
+**Above all, we want to know, if there are any interesting insights underlying the trending patterns ?**
 
-**This project is all about answering these questions. Stay tuned !!!**
+**This project is all about our journey towards finding these answers. Stay tuned !!!**
 
 
 ## Team Members
