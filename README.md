@@ -61,7 +61,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ## Regional Analysis: Findings
 
-**Country of Viewership: 
+###### Country of Viewership:
 
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
@@ -71,50 +71,11 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-**Of those videos that trended in multiple countries, they most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6).**
+**When videos trended in multiple countries, they most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few **
 
 <img src="youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png" alt="Trending_in_Multiple_Countries"/>
 
-
-<hr>
-**Language:  
-
-**As we would expect, the local language seems to play a big role in trending.**   
-
-**We studied the ratio of languages used in trending videos across countries. English is amoung top 3 most common for all except Russia, Japan and Korea.**
-
-<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="700" height="900"/>
-
-
-<hr>
-
-
-**Also, Videos made in English trended significantly longer than that of other languages.**
-
-<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending"/>
-
-
-<hr>
-
-**Category:  
-
-**We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, "Music" outnumbered "Entertainment" whereas in Russia "People & Blogs" surmounted "Entertainment"!**
-
-<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition" width="700" height="900"/>
-
-
-<hr>
-
-
-**We define popularity as the number of days videos trended. Almost all categories have a varying popularity; however, "Non-profit & Activism" tended to have relatively shorter limelight.**
-
-<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="800"/>
-
-
-<hr>
-
-
-**Similarity between countries based on what they watch:** 
+###### Similarity between countries based on what they watch:
 
 **We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
 
@@ -125,7 +86,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-**Similarity between countries based on the categories they watch:** 
+###### Similarity between countries based on the categories they watch:
 
 **We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare.** 
 
@@ -141,7 +102,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-**Origin of Videos:** 
+###### Origin of Videos:
 
 **Most video have an unknown origin. Of those that do, the highest proportion originate from the US** 
 
@@ -170,11 +131,52 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-**Impact of trending in one region on trending in Others:**
+###### Origin of Trending amoung Videos Trending in Multiple Countries 
 
 **The vast majority of videos trended in multple countries first did so on same day across countries. This suggests that there is no single regional origin of trending for the majority of videos that trend in multiple countries.** 
 
 ![Timing_of_Trending_vs_Region](youtube-trending/Image/Whether_videos_that_trended_in_multiple_countries_first_did_so_on_the_same_day_or_different_days.png)
+
+
+<hr>
+
+
+###### Language: 
+
+**As we would expect, the local language seems to play a big role in trending.**   
+
+**We studied the ratio of languages used in trending videos across countries. English is amoung top 3 most common for all except Russia, Japan and Korea.**
+
+<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="700" height="900"/>
+
+
+<hr>
+
+
+**Also, Videos made in English trended significantly longer than that of other languages.**
+
+<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending"/>
+
+
+<hr>
+
+###### Category:  
+
+**We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, "Music" outnumbered "Entertainment" whereas in Russia "People & Blogs" surmounted "Entertainment"!**
+
+<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition" width="700" height="900"/>
+
+
+<hr>
+
+
+**We define popularity as the number of days videos trended. Almost all categories have a varying popularity; however, "Non-profit & Activism" tended to have relatively shorter limelight.**
+
+<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="800"/>
+
+
+<hr>
+
 
 <br>
 <br>
