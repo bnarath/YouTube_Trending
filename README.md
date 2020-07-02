@@ -14,7 +14,7 @@ Afterall, we want to help the struggling youtuber/influencer community by provid
 
 **This project is all about our journey towards finding these answers. Stay tuned !!!**
 
-
+<hr>
 ## Team Members
 
 [Bincy Narath](https://github.com/bnarath), [Sogra Bilal Memon](https://github.com/SograMemon) & [Megan McGlashan](https://github.com/McGlash)
