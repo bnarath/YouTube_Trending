@@ -134,9 +134,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-**Origin of Videos**
-Most video have an unknown origin. Of those that do, the highest proportion originate from the US. 
-
+**Origin of Videos: Most video have an unknown origin. Of those that do, the highest proportion originate from the US** 
 
 
 ![Origin](youtube-trending/Image/Origin_of_Channels.png)
@@ -145,8 +143,7 @@ Most video have an unknown origin. Of those that do, the highest proportion orig
 <hr>
 
 
-Canada, Germany and France watch videos originating from over 80 known countries. 
-
+**Canada, Germany and France watch videos originating from over 80 known countries.** 
 
  
 ![Origins_by_viewership](youtube-trending/Image/Variation_in_Origin_of_Videos_Watched_in_Each_Country.png)
@@ -155,7 +152,7 @@ Canada, Germany and France watch videos originating from over 80 known countries
 <hr>
 
 
-Canada and the UK watched little content known to originate from within the respective countries, rather most videos watched in these countries orignate in the US. Comparatively, most videos watched in other countries originate from within the respective countries.
+**Canada and the UK watched little content known to originate from within the respective countries, rather most videos watched in these countries orignate in the US. Comparatively, most videos watched in other countries originate from within the respective countries.**
 
 
 ![Origins_vs_viewership](youtube-trending/Image/Source_of_Videos_watched_by_Country.png)
@@ -164,48 +161,50 @@ Canada and the UK watched little content known to originate from within the resp
 <hr>
 
 
-**Impact of trending in one region on trending in Others**
-
-Just under 8 in 10 videos that trended in multple countries first did so on same day across countries. This suggests that there is no single regional origin of trending for the majority of videos that trend in multiple countries. 
+**Impact of trending in one region on trending in Others: Just under 8 in 10 videos that trended in multple countries first did so on same day across countries. This suggests that there is no single regional origin of trending for the majority of videos that trend in multiple countries.** 
 
 ![Timing_of_Trending_vs_Region](youtube-trending/Image/Whether_videos_that_trended_in_multiple_countries_first_did_so_on_the_same_day_or_different_days.png)
 
 
-<hr>
-
-<hr>
-
 
 ## Popularity Analysis: Findings
 
-**What is typically the pattern of trend ? Is it continuous trending or sporadic ?**
-**Trending videos show a continuous trend rather than intermittent**
+**What is typically the pattern of trend ? Is it continuous trending or sporadic ?**  
+**Trending videos show a continuous trend rather than intermittent**  
+**A very high correlation (0.98) between the total trend days and the maximum of  continuous trend days show Trending is a continuous pattern**.  
+**Also, 99% of the trends is continuous without a break and only 1% had a break in trending**. 
 
-![Total_Trending_Vs_Continuous_Trending](youtube-trending/Image/Total_Trending_Vs_Continuous_Trending.png)
-
-
-
-**A very high correlation (0.98) between the total trend days and the maximum of  continuous trend days show Trending is a continuous pattern** 
-
-**Also, 99% of the trends is continuous without a break and only 1% had a break in trending**
+<img src="youtube-trending/Image/Total_Trending_Vs_Continuous_Trending.png" alt="Total_Trending_Vs_Continuous_Trending" width="800"/>
 
 
-The more countries videos trended in, the greater the proportion that trend for more than a single day.
+<hr>
+
+
+**The more countries videos trended in, the greater the proportion that trend for more than a single day.**
 
 ![Days_By_countries_Trended_In](youtube-trending/Image/Mean_Days_Videos_Trended_by_No._of_Countries_Trended_In.png)
 
-**For six of ten countries, the majority of videos trend for a single day.** In Korea, just under half of videos trend for 2 to 5 days whereas over half of videos in India trended for that interval. **US and UK are outliers amoung the countries as the majority of videos that trended in these countries did so for more than five days.** 
+
+<hr>
+
+
+
+**For six of ten countries, the majority of videos trend for a single day.In Korea, just under half of videos trend for 2 to 5 days whereas over half of videos in India trended for that interval. US and UK are outliers amoung the countries as the majority of videos that trended in these countries did so for more than five days.** 
 
 ![Days_By_countries](youtube-trending/Image/Days_Videos_Trended_by_Country.png)
 
+<hr>
+
 **Maximum Trending days per Country**
-* Videos trend in UK from 1 to 38 days
-* Videos trend in US from 1 to 29 days
-* Videos trend in India from 1 to 10 days
-* Videos trend in Canada from 1 to 8 days
-* Videos trend in all other countries for less than 8 days
+- Videos trend in UK from 1 to 38 days
+- Videos trend in US from 1 to 29 days
+- Videos trend in India from 1 to 10 days
+- Videos trend in Canada from 1 to 8 days
+- Videos trend in all other countries for less than 8 days
 
 ![Max_Trending_per_country](youtube-trending/Image/maxTrendingPerCountry.png)
+
+<hr>
 
 * Each of the top longest trending videos have trended the longest in the UK
 * The same videos that achieves such a high popularity in the UK by trending for 38 days only trends for 0 to 6 days in most other countries and in the US trends for about 10 to 20 days 
