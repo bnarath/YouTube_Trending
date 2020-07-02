@@ -105,8 +105,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Similarity between countries based on what they watch: We mapped countries into large dimensional vectors and measured cosine similarity between them to understand with countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~bnarath/3.embed"></iframe>
-<img src="youtube-trending/Image/Country_Relationships.png" alt="Country_Relationships" width="1000" height="1000"/>
+
+<img src="youtube-trending/Image/country_relations_sc_giffy.gif" alt="Country_Relationships"/>
 
 
 
