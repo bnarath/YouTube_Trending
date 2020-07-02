@@ -221,6 +221,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ![Latebloom_perc](youtube-trending/Image/Perc_of_Lateblooms.png)
 
+<br>
+
 **The so called "latebloom effect" : Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age !!**
 **This shows some light on the external factors behind a video trending**
 
