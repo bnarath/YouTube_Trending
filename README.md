@@ -44,17 +44,19 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 ## Research Questions
 
 1. Regional Analysis: How does trending in different countries impact one another?
-    - Which countries generate videos that trend on Youtube and which consume them?
-    - Which categories of videos trend more often in different countries? 
-    - What is the composition of languages on trending videos across countries?
-    - What is the composition of categories on trending videos across countries?
+    1. Which countries generate videos that trend on Youtube and which consume them?
+    1. Which categories of videos trend more often in different countries? 
+    1. What is the composition of languages on trending videos across countries?
+    1. What is the composition of categories on trending videos across countries?
+    1. How similar or different are the countries based on what(which videos) gets trending in countries?
+    1. How similar or different are the countries based on the categories they like?
 
-2. Popularity Analysis: What impacts how long videos trend on Youtube? 
-  Factors considered:
-  - Country of viewership 
-  - Video language 
-  - Video features
-  - Interval between publishing and when videos first trending  
+1. Popularity Analysis: What impacts how long videos trend on Youtube? 
+    Factors considered:
+     1. Country of viewership 
+     1. Video language 
+     1. Video features
+     1. Interval between publishing and when videos first trending  
   
 
 ## Regional Analysis: Findings
