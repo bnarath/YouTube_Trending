@@ -63,19 +63,25 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
-
 <img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries" width="500"/>
 
 
 
 
-**Videos that trended in multiple countries most often trended in Canada (over 1 in 4)  followed by Germany (over 1 in 5) and France (just under 1 in 6).  Few Videos that trended in multiple countries trended in the US,  suggesting it has less impact on trending in other countries.**   
+**Videos that trended in multiple countries most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6). Few Videos that trended in multiple countries trended in the US, suggesting it has less impact on trending in other countries.**
 
 ![Trending_in_Multiple_Countries](youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png)
 
-![Country_Language_Composition](youtube-trending/Image/Lang1.png)
 
-As we would expect, The local language seems to play a big role in trending. We studied the ratio of languages of trending videos across countries (English is Top3 for all except Russia, Japan and Korea). 
+
+
+**As we would expect, The local language seems to play a big role in trending.**   
+**We studied the ratio of languages of trending videos across countries (English is Top3 for all except Russia, Japan and Korea).**
+
+<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="500" height="500"/>
+
+
+
 
 ![Language_Vs_Trending](youtube-trending/Image/Popularity_for_Languages.png)
 
