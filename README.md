@@ -75,6 +75,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <img src="youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png" alt="Trending_in_Multiple_Countries"/>
 
+<hr>
+
 ###### Similarity between countries based on what they watch:
 
 **We mapped countries into large dimensional vectors and measured cosine similarity between them to understand which countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
@@ -191,6 +193,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 <hr>
+
 ###### Country of Viewership:
 
 **The more countries videos trended in, the greater the proportion that trended for more than a single day.**
@@ -235,7 +238,9 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ![Latebloom_perc](youtube-trending/Image/Perc_of_Lateblooms.png)
 
-<br>
+
+<hr>
+
 
 **The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!!**
 
