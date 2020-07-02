@@ -98,7 +98,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 **We define popularity(longevity) as the number the days of trending. Almost all categories have a varying popularity.**  
 **However, it looks like "Non-profit & Activism" tend to have relatively shorter limelight.**
 
-<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="700" height="1000"/>
+<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="800" height="1000"/>
 
 
 
