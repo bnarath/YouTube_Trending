@@ -83,7 +83,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Also, Videos made in English trend significantly longer than that of other languages.**
 
-<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending" width="700" height="1000"/>
+<img src="youtube-trending/Image/Popularity_for_Languages.png" alt="Language_Vs_Trending" width="800" height="1000"/>
 
 
 
