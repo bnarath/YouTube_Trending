@@ -273,12 +273,19 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **Based on the feature selection study, it appears that Boolean Categorical variables are less significant than others. However, the manual chi-square test of independence proved that the popularity depends on all of the boolean variables**
 
+- **Disabling the Ratings, Comments and having Censorship reduces the trending days, as we can see in the distribution plot (moves towards the left)** 
+
 
 <p float="left">
   <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="Cat_Variables" width=300/>
   <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="Numeric_Variables" width=300/>
   <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Numeric_Variables" width=300/> 
 </p>
+
+<br>
+
+- **Enabling Google Analytics and Moderating comments benefits the popularity, as we can see in the distribution plot (moves towards the right)** 
+
 
 <p float="left">
   <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="Cat_Variables" width=450/>
