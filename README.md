@@ -308,10 +308,10 @@ Please refer the codebase for the base model [here](youtube-trending/Code/Basic_
 
 - **We have selected the features based on the insights from the statistical analysis to predict the popularity bucket of a trending video**
 - **"Total Trending Days" is categorized into Popularity as follows:**
- - **1Day Trending -> 'JustTrending'**
- - **1 to 5 Days Trending-> 'Popular'**
- - **5 to 14 Days Trending -> 'UltraPopular'**
- - **>14 Days Trending -> 'Phenomenon'**
+  - **1Day Trending -> 'JustTrending'**
+  - **1 to 5 Days Trending-> 'Popular'**
+  - **5 to 14 Days Trending -> 'UltraPopular'**
+  - **>14 Days Trending -> 'Phenomenon'**
  
 - **One hot encoding is done for all categorical variables**
 
