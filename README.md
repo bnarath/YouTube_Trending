@@ -84,8 +84,12 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 **We mapped countries into large dimensional vectors and measured cosine similarity between them to understand which countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
 
+<br>
 
-<img src="youtube-trending/Image/country_relations_sc_giffy.gif" alt="Country_Relationships" width="850"/>
+<img src="youtube-trending/Image/Correlation_on_video_watch_with_360217" alt="Country_Relationships" width="500"/>
+
+<br>
+<img src="youtube-trending/Image/country_relations_sc_giffy.gif" alt="Country_Relationships"/>
 
 
 <hr>
