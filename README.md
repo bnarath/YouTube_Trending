@@ -166,15 +166,17 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, "Music" outnumbered "Entertainment" whereas in Russia "People & Blogs" surmounted "Entertainment"!**
 
-<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition" width="700" height="900"/>
+<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition"/>
 
 
 <hr>
 
 
-**We define popularity as the number of days videos trended. Almost all categories have a varying popularity; however, "Non-profit & Activism" tended to have relatively shorter limelight.**
+**We define popularity(longevity) as the number the days of trending**
+- **Almost all categories have a varying popularity**
+- **However, it looks like "Music videos" tend to have relatively longer limelight (Avg >3, whereas all other categories have mean trending days <3)**
 
-<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="800"/>
+<img src="youtube-trending/Image/Popularity_Across_Categories_box_plot.png" alt="Category_Vs_Trending"/>
 
 
 <hr>
