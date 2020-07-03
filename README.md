@@ -275,16 +275,13 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
-  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
+  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="Cat_Variables" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="Numeric_Variables" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Numeric_Variables" width=300/> 
 </p>
 
 <p float="left">
-  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
-  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
+  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="Cat_Variables" width=450/>
+  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="Numeric_Variables" width=450/> 
 </p>
 
-<p float="left">
-  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
-  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
-</p>
