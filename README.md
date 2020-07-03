@@ -264,8 +264,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 <p float="left">
-  <img src="youtube-trending/Image/important_cat_features.png" alt="Cat_Variables"/>
-  <img src="youtube-trending/Image/important_numeric_features.png" alt="Numeric_Variables"/> 
+  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables" alt="Cat_Variables"/>
+  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables" alt="Numeric_Variables"/> 
 </p>
 
 
