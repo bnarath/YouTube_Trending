@@ -90,12 +90,12 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ###### Similarity between countries based on the categories they watch:
 
-**We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare.** 
+* **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia. In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!** 
 
-- **Cluster1 - Canada, Germany,and India - Common interest in Entertainment, News & Politics**
-- **Cluster2 - Japan, Mexico & France - Common interest in Entertainment, People&Blogs, Sports**
-- **Cluster3 - Korea & Russia - Common interest in Entertainment, News & Politics, People&Blogs**
-- **Cluster4 - UK & US - Common interest in Entertainment, Music**
+* **We clustered countries based on the how much they watch in each categories. The clustering method we chose is hierarchical clustering as we have only 10 countries to compare**
+ - **Cluster1 - Canada, Germany, France, India, Japan and Mexico  - Significantly high interest in Entertainment compared to all other categories**
+ - **Cluster2 - Korea & Russia - Along with Entertainment, they also have interest in News & Politics and People & Blogs**
+ - **Cluster3 - UK & US - Common interest in Music & Entertainment**
 
 
 <img src="youtube-trending/Image/country_cluster_sc_giffy.gif" alt="Country_Cluster" width="800"/>
