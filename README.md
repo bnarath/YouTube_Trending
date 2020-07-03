@@ -149,7 +149,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **We studied the ratio of languages used in trending videos across countries. English is amoung top 3 most common for all except Russia, Japan and Korea.**
 
-<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition" width="700" height="900"/>
+<img src="youtube-trending/Image/Lang1.png" alt="Country_Language_Composition"/>
 
 
 <hr>
