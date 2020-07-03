@@ -86,7 +86,7 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 <br>
 
-<img src="youtube-trending/Image/Correlation_on_video_watch_with_360217" alt="Country_Relationships" width="500"/>
+<img src="youtube-trending/Image/Correlation_on_video_watch_with_360217.png" alt="Country_Relationships_Correlation_Matrix" width="500"/>
 
 <br>
 <img src="youtube-trending/Image/country_relations_sc_giffy.gif" alt="Country_Relationships"/>
