@@ -245,8 +245,8 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Perc_of_Lateblooms.png" alt="Latebloom_perc" width=450/>
-  <img src="youtube-trending/Image/Latebloom_effect.png" alt="Latebloom_effect" width=450/> 
+  <img src="youtube-trending/Image/Perc_of_Lateblooms.png" alt="Latebloom_perc" width=400/>
+  <img src="youtube-trending/Image/Latebloom_effect.png" alt="Latebloom_effect" width=400/> 
 </p>
 
 
@@ -267,8 +267,8 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 <br>
 
 <p float="left">
-  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
-  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
+  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=400/>
+  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=400/> 
 </p>
 
 <br>
@@ -279,9 +279,9 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="RatingsDisabled_Vs_Popularity" width=300/>
-  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="CommentsDisabled_Vs_Popularity" width=300/>
-  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Censorship_Vs_Popularity" width=300/> 
+  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="RatingsDisabled_Vs_Popularity" width=280/>
+  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="CommentsDisabled_Vs_Popularity" width=280/>
+  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Censorship_Vs_Popularity" width=280/> 
 </p>
 
 <br>
@@ -290,8 +290,8 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="CommentModeration_Vs_popularity" width=450/>
-  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=450/> 
+  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="CommentModeration_Vs_popularity" width=400/>
+  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=400/> 
 </p>
 
 <hr>
