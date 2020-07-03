@@ -237,16 +237,15 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 ###### Time To trend Vs Trending Days: 
 
 **Most of the videos trended within a month of being published. Few videos were lateblooms!**
-
-![Latebloom_perc](youtube-trending/Image/Perc_of_Lateblooms.png)
-
-
-<hr>
-
-
 **The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!! This shows some light on the external factors behind a video trending**
 
-![Latebloom_effect](youtube-trending/Image/Latebloom_effect.png)
+
+
+<p float="left">
+  <img src="youtube-trending/Image/Perc_of_Lateblooms.png" alt="Latebloom_perc" width=450/>
+  <img src="youtube-trending/Image/Latebloom_effect.png" alt="Latebloom_effect" width=450/> 
+</p>
+
 
 
 <hr>
@@ -277,9 +276,9 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="Cat_Variables" width=300/>
-  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="Numeric_Variables" width=300/>
-  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Numeric_Variables" width=300/> 
+  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="RatingsDisabled_Vs_Popularity" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="CommentsDisabled_Vs_Popularity" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Censorship_Vs_Popularity" width=300/> 
 </p>
 
 <br>
@@ -288,7 +287,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="Cat_Variables" width=450/>
-  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="Numeric_Variables" width=450/> 
+  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="CommentModeration_Vs_popularity" width=450/>
+  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=450/> 
 </p>
 
