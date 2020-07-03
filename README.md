@@ -90,12 +90,12 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ###### Similarity between countries based on the categories they watch:
 
-**We clustered countries based on the how much they watch in each categories. The clustering chosen is hierarchical  as we have only 10 countries to compare.** 
+* **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia. In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!** 
 
-- **Cluster1 - Canada, Germany,and India - Common interest in Entertainment, News & Politics**
-- **Cluster2 - Japan, Mexico & France - Common interest in Entertainment, People&Blogs, Sports**
-- **Cluster3 - Korea & Russia - Common interest in Entertainment, News & Politics, People&Blogs**
-- **Cluster4 - UK & US - Common interest in Entertainment, Music**
+* **We clustered countries based on the how much they watch in each categories. The clustering method we chose is hierarchical clustering as we have only 10 countries to compare**
+ - **Cluster1 - Canada, Germany, France, India, Japan and Mexico  - Significantly high interest in Entertainment compared to all other categories**
+ - **Cluster2 - Korea & Russia - Along with Entertainment, they also have interest in News & Politics and People & Blogs**
+ - **Cluster3 - UK & US - Common interest in Music & Entertainment**
 
 
 <img src="youtube-trending/Image/country_cluster_sc_giffy.gif" alt="Country_Cluster" width="800"/>
@@ -166,15 +166,17 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, "Music" outnumbered "Entertainment" whereas in Russia "People & Blogs" surmounted "Entertainment"!**
 
-<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition" width="700" height="900"/>
+<img src="youtube-trending/Image/Cat1_with_360217.png" alt="Country_Category_Composition"/>
 
 
 <hr>
 
 
-**We define popularity as the number of days videos trended. Almost all categories have a varying popularity; however, "Non-profit & Activism" tended to have relatively shorter limelight.**
+**We define popularity(longevity) as the number the days of trending**
+- **Almost all categories have a varying popularity**
+- **However, it looks like "Music videos" tend to have relatively longer limelight (Avg >3, whereas all other categories have mean trending days <3)**
 
-<img src="youtube-trending/Image/Popularity_Across_Categories.png" alt="Category_Vs_Trending" width="800"/>
+<img src="youtube-trending/Image/Popularity_Across_Categories_box_plot.png" alt="Category_Vs_Trending"/>
 
 
 <hr>
@@ -242,17 +244,28 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-**The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!!**
-
-**This shows some light on the external factors behind a video trending**
+**The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!! This shows some light on the external factors behind a video trending**
 
 ![Latebloom_effect](youtube-trending/Image/Latebloom_effect.png)
 
 
 <hr>
 
- 
+###### Feature Importance: Statistical Approach
+**We used statistical measures to understand the prominent features (attributes) that affects popularity (No. of days of trending)**
+- **Since the number of days of trending(popularity), we cannot treat this problem as a regression problem and use statistical methods. Hence, we have categorized the popularity into 4 ranges**
+ - 1Day Trending -> 'JustTrending'
+ - 1 to 5 Days Trending-> 'Popular'
+ - 5 to 14 Days Trending -> 'UlraPopular'
+ - \>14 Days Trending -> 'Phenomenon'
+- **Used Chi-squared Feature Selection for categorical features**
+- **Use ANOVA test for numeric features**
+**Please note that this study is a preliminary one and doesn't identify the combined effects of attributes on output**
 
 
+<p float="left">
+  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables"/>
+  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables"/> 
+</p>
 
 
