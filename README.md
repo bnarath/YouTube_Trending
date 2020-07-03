@@ -263,7 +263,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 **Please note that this study is a preliminary one and doesn't identify the combined effects of attributes on output**
 
 
-
+![Cat_Variables](youtube-trending/Image/important_cat_features.png "Cat_Variables") ![Numeric_Variables](youtube-trending/Image/important_numeric_features "Numeric_Variables")
 
 
 
