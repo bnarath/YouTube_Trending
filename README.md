@@ -299,7 +299,7 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 ## Model Building: Base Model
 
 ### Codebase for the model building
-Please refer the codebase for the base model [here](youtube-trending/Code/Basic_Model.ipynb.ipynb).
+Please refer the codebase for the base model [here](youtube-trending/Code/Basic_Model.ipynb).
 
 - **We have selected the features based on the insights from the statistical analysis to predict the popularity bucket of a trending video**
 **"Total Trending Days" is categorized into Popularity as follows:**
