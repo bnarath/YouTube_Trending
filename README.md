@@ -260,7 +260,18 @@ We separated out the codebase of data modelling and clean-up from analysis and t
  - \>14 Days Trending -> 'Phenomenon'
 - **Used Chi-squared Feature Selection for categorical features**
 - **Use ANOVA test for numeric features**
-**Please note that this study is a preliminary one and doesn't identify the combined effects of attributes on output**
+**Please note that this study doesn't identify the combined effects of attributes on output**
+
+<br>
+
+<p float="left">
+  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
+  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
+</p>
+
+<br>
+
+**Based on the feature selection study, it appears that Boolean Categorical variables are less significant than others. However, the manual chi-square test of independence proved that the popularity depends on all of the boolean variables**
 
 
 <p float="left">
@@ -268,4 +279,12 @@ We separated out the codebase of data modelling and clean-up from analysis and t
   <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
 </p>
 
+<p float="left">
+  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
+  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
+</p>
 
+<p float="left">
+  <img src="youtube-trending/Image/Feature_Selection_of_categoricalvariables.png" alt="Cat_Variables" width=450/>
+  <img src="youtube-trending/Image/Feature_Selection_of_numericvariables.png" alt="Numeric_Variables" width=450/> 
+</p>
