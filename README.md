@@ -115,11 +115,7 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 ###  Origin of Videos:
 
 **Most video have an unknown origin. Of those that do, the highest proportion originate from the US** 
-
-
 ![Origin](youtube-trending/Image/Origin_of_Channels.png)
-
-
 <hr>
 
 
