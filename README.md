@@ -61,7 +61,10 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ## Regional Analysis: Findings
 
-###### Country of Viewership:
+### Codebase for Analysis
+Please refer the codebase for all the analysis [here](youtube-trending/Code/Analysis_Code_Final.ipynb).
+
+###  Country of Viewership:
 
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
@@ -77,7 +80,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Similarity between countries based on what they watch:
+###  Similarity between countries based on what they watch:
 
 **We mapped countries into large dimensional vectors and measured cosine similarity between them to understand which countries watch the same content. It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
 
@@ -88,7 +91,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-###### Similarity between countries based on the categories they watch:
+###  Similarity between countries based on the categories they watch:
 
 * **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia. In GB, Music outnumbered the Entertainment whereas in Russia "People & Blogs" surmounted Entertainment!** 
 
@@ -104,7 +107,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-###### Origin of Videos:
+###  Origin of Videos:
 
 **Most video have an unknown origin. Of those that do, the highest proportion originate from the US** 
 
@@ -133,7 +136,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-###### Origin of Trending amoung Videos Trending in Multiple Countries: 
+###  Origin of Trending amoung Videos Trending in Multiple Countries: 
 
 **The vast majority of videos trended in multple countries first did so on same day across countries. This suggests that there is no single regional origin of trending for the majority of videos that trend in multiple countries.** 
 
@@ -143,7 +146,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 <hr>
 
 
-###### Language: 
+###  Language: 
 
 **As we would expect, the local language seems to play a big role in trending.**   
 
@@ -162,7 +165,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Category:  
+###  Category:  
 
 **We studied trending categories across countries and found "Entertainment" is the most trending category in all countries except Great Britain(GB) and Russia.**  **In GB, "Music" outnumbered "Entertainment" whereas in Russia "People & Blogs" surmounted "Entertainment"!**
 
@@ -187,7 +190,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ## Popularity Analysis: Findings
 
-###### Pattern of Trending: 
+###  Pattern of Trending: 
 
 **Trending videos tend to trend on consecutive days: 99% of the trends were continuous without a break and there is very high correlation (0.98) between the total trend days and the maximum of  continuous trend days show.**
 
@@ -196,7 +199,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Country of Viewership:
+###  Country of Viewership:
 
 **The more countries videos trended in, the greater the proportion that trended for more than a single day.**
 
@@ -224,7 +227,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Top Trending Videos Vs. Viewing Countries
+###  Top Trending Videos Vs. Viewing Countries
 
 **There is a very large difference in the number of days videos trend in UK compared to other countries. Each of the longest trending videos trended for the longest period of time in the UK; The longest trending videos trended in the UK for 38 days. In comparison, these videos only trended for 0 to 6 days in most other countries and trended for about 10 to 20 days in the US.** 
 
@@ -234,7 +237,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Time To trend Vs Trending Days: 
+###  Time To trend Vs Trending Days: 
 
 **Most of the videos trended within a month of being published. Few videos were lateblooms!**
 **The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!! This shows some light on the external factors behind a video trending**
@@ -250,7 +253,7 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Feature Importance: Statistical Approach
+###  Feature Importance: Statistical Approach
 **We used statistical measures to understand the prominent features (attributes) that affects popularity (No. of days of trending)**
 - **Since the number of days of trending(popularity), we cannot treat this problem as a regression problem and use statistical methods. Hence, we have categorized the popularity into 4 ranges**
  - 1Day Trending -> 'JustTrending'
@@ -293,9 +296,13 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 <hr>
 
-###### Model Building: Base Model
+## Model Building: Base Model
+
+### Codebase for the model building
+Please refer the codebase for the base model [here](youtube-trending/Code/Basic_Model.ipynb.ipynb).
+
 - **We have selected the features based on the insights from the statistical analysis to predict the popularity bucket of a trending video**
-**"Total Trending Days" is categorized into Popularity as follows:
+**"Total Trending Days" is categorized into Popularity as follows:**
  - **1Day Trending -> 'JustTrending'**
  - **1 to 5 Days Trending-> 'Popular'**
  - **5 to 14 Days Trending -> 'UltraPopular'**
@@ -332,11 +339,11 @@ We separated out the codebase of data modelling and clean-up from analysis and t
        'IsmoderatingComments_True'],
 ```
 
-**Total data is split into Train and Test at a ratio of 70%-30%
+**Total data is split into Train and Test at a ratio of 70%-30%**
 
 **Built a base model with XGBoost Classifier**
 
-**Train accuracy - 82.55%, Test accuracy - 78.05%
+**Train accuracy - 82.55%, Test accuracy - 78.05%**
 
 **Confusion Matrix shows that the misclassified data is mostly the adjacent class**
 
@@ -346,8 +353,8 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 
 ###### Future Scope - These are the possible directions we would like to expand!
 
-** To work on the complete interpretability of the model.
-** To incorporate Natural Language into the model by analysing and deriving insights on description, tags etc.
-** To work on the model tuning by comparing multiple classifiers.
-** To build a deployable model as an application.
+- **To work on the complete interpretability of the model.**
+- **To incorporate Natural Language into the model by analysing and deriving insights on description, tags etc.**
+- **To work on the model tuning by comparing multiple classifiers.**
+- **To build a deployable model as an application.**
 
