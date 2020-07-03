@@ -291,3 +291,63 @@ We separated out the codebase of data modelling and clean-up from analysis and t
   <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=450/> 
 </p>
 
+<hr>
+
+###### Model Building: Base Model
+- **We have selected the features based on the insights from the statistical analysis to predict the popularity bucket of a trending video**
+**"Total Trending Days" is categorized into Popularity as follows:
+ - **1Day Trending -> 'JustTrending'**
+ - **1 to 5 Days Trending-> 'Popular'**
+ - **5 to 14 Days Trending -> 'UltraPopular'**
+ - **>14 Days Trending -> 'Phenomenon'**
+ 
+**One hot encoding is done for all categorical variables**
+
+**There are total 68 features in the model as follows**
+```python
+        ['Duration', 'Views', 'Likes', 'Dislikes', 'Comment_Count',
+       'Trended_After(Days)', 'PublishedAfter_in_Days',
+       'Category_Autos & Vehicles', 'Category_Comedy', 'Category_Education',
+       'Category_Entertainment', 'Category_Film & Animation',
+       'Category_Gaming', 'Category_Howto & Style', 'Category_Movies',
+       'Category_Music', 'Category_News & Politics',
+       'Category_Nonprofits & Activism', 'Category_People & Blogs',
+       'Category_Pets & Animals', 'Category_Science & Technology',
+       'Category_Shows', 'Category_Sports', 'Category_Trailers',
+       'Category_Travel & Events', 'Language_Arabic', 'Language_English',
+       'Language_French', 'Language_German', 'Language_Hindi',
+       'Language_Icelandic', 'Language_Japanese', 'Language_Korean',
+       'Language_Others', 'Language_Russian', 'Language_Spanish',
+       'Language_Turkish', 'Language_Unknown', 'viewing_country_CA',
+       'viewing_country_DE', 'viewing_country_FR', 'viewing_country_GB',
+       'viewing_country_IN', 'viewing_country_JP', 'viewing_country_KR',
+       'viewing_country_MX', 'viewing_country_RU', 'viewing_country_US',
+       'Origin_Country_CA', 'Origin_Country_DE', 'Origin_Country_ES',
+       'Origin_Country_FR', 'Origin_Country_GB', 'Origin_Country_IN',
+       'Origin_Country_JP', 'Origin_Country_KR', 'Origin_Country_MA',
+       'Origin_Country_MX', 'Origin_Country_Not_Disclosed',
+       'Origin_Country_Others', 'Origin_Country_RU', 'Origin_Country_TR',
+       'Origin_Country_UA', 'Origin_Country_US', 'Comments_Disabled_True',
+       'Ratings_Disabled_True', 'GoogleAnalyticsUsed_True',
+       'IsmoderatingComments_True'],
+```
+
+**Total data is split into Train and Test at a ratio of 70%-30%
+
+**Built a base model with XGBoost Classifier**
+
+**Train accuracy - 82.55%, Test accuracy - 78.05%
+
+**Confusion Matrix shows that the misclassified data is mostly the adjacent class**
+
+<img src="youtube-trending/Image/Confusion_Matrix.png" alt="Confusion_Matrix"/>
+
+<hr>
+
+###### Future Scope - These are the possible directions we would like to expand!
+
+** To work on the complete interpretability of the model.
+** To incorporate Natural Language into the model by analysing and deriving insights on description, tags etc.
+** To work on the model tuning by comparing multiple classifiers.
+** To build a deployable model as an application.
+
