@@ -68,7 +68,9 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
 <img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries"/>
+
 <hr>
+
 **When videos trended in multiple countries, they most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6).**
 
 <img src="youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png" alt="Trending_in_Multiple_Countries"/>
@@ -233,22 +235,6 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 <hr>
 
-###  Time To trend Vs Trending Days: 
-
-**Most of the videos trended within a month of being published. Few videos were lateblooms!**
-**The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!! This shows some light on the external factors behind a video trending**
-
-
-
-<p float="left">
-  <img src="youtube-trending/Image/Perc_of_Lateblooms.png" alt="Latebloom_perc" width=400/>
-  <img src="youtube-trending/Image/Latebloom_effect.png" alt="Latebloom_effect" width=400/> 
-</p>
-
-
-
-<hr>
-
 ###  Feature Importance: Statistical Approach
 **We used statistical measures to understand the prominent features (attributes) that affects popularity (No. of days of trending)**
 - **Since the number of days of trending(popularity), we cannot treat this problem as a regression problem and use statistical methods. Hence, we have categorized the popularity into 4 ranges**
@@ -258,6 +244,9 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
  - \>14 Days Trending -> 'Phenomenon'
 - **Used Chi-squared Feature Selection for categorical features**
 - **Use ANOVA test for numeric features**
+  - **Assumptions: We don't have normality, however, if that is accepted if the sample size in each group is above 20 (It holds true in our case)**
+
+
 **Please note that this study doesn't identify the combined effects of attributes on output**
 
 <br>
@@ -289,6 +278,40 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
   <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="CommentModeration_Vs_popularity" width=400/>
   <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=400/> 
 </p>
+
+<hr>
+
+**One way ANOVA Test on Quantitative Variables for Popularity Bucket**
+- **The F-value scores examine if, when we group the quantitative variables by the popularity bucket, the means for each group are significantly different.**
+- **This result also shows that all the mean values (of all of the quantitative variables) across the popularity buckets are not the same**
+- **Ultra Popular videos have higher mean and median values for views, likes, dislikes, comment counts, and the channel age (Publish after days) compared to the low popular classes.**
+- **At the same time, Ultra Popular videos have lower mean and median values of duration compared to the low popular classes.**
+
+```python
+st.f_oneway(*[DF[DF['Popularity_Category']==bucket][['Trended_After(Days)','Duration', 'Views', 'Likes', 'Dislikes', 'Comment_Count', 'PublishedAfter_in_Days']] for bucket in pop_buckets])
+
+F_onewayResult(statistic=array([ 126.25689231,  503.74984728, 1851.59958288, 1376.40544717,
+        481.38935889,  710.69884855, 1021.07865493]), pvalue=array([1.13317581e-081, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       3.14170798e-311, 0.00000000e+000, 0.00000000e+000]))
+```
+
+![Numeric_variables_Across_popularity_buckets](youtube-trending/Image/Numeric_variables_Across_popularity_buckets.png)
+
+<hr>
+
+###  Time To trend Vs Trending Days: 
+
+**Most of the videos trended within a month of being published. Few videos were lateblooms!**
+**The so called "latebloom effect": Given that a latebloom video is trending, the chance of this video trends >5 days increases with its age!! This shows some light on the external factors behind a video trending**
+
+
+
+<p float="left">
+  <img src="youtube-trending/Image/Perc_of_Lateblooms.png" alt="Latebloom_perc" width=400/>
+  <img src="youtube-trending/Image/Latebloom_effect.png" alt="Latebloom_effect" width=400/> 
+</p>
+
+
 
 <hr>
 
