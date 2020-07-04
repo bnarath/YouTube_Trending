@@ -57,7 +57,6 @@ We separated out the codebase of data modelling and clean-up from analysis and t
      1. Video language 
      1. Video features
      1. Interval between publishing and when videos first trending  
-  
 
 ## Regional Analysis: Findings
 
@@ -69,11 +68,7 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 **Overall, the vast majority (92.5%) of videos trended in a single country.**
 
 <img src="youtube-trending/Image/No._of_Countries_Video_Trended_In.png" alt="No_of_countries"/>
-
-
 <hr>
-
-
 **When videos trended in multiple countries, they most often trended in Canada (over 1 in 4) followed by Germany (over 1 in 5) and France (just under 1 in 6).**
 
 <img src="youtube-trending/Image/Percentage_of_Videos_Trending_in_Multiple_Countries_by_Country_of_Viewership.png" alt="Trending_in_Multiple_Countries"/>
