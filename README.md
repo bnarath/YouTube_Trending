@@ -1,6 +1,6 @@
 # YouTube Trending
 
-**Before we begin, let us introduce some of the most trending videos in youtube across the globe!!!**
+**Before we begin, let us introduce some of the most trending videos on YouTube across the globe!!!**
 
 
 <img src="youtube-trending/Image/Collage_Giffy.gif" alt="Headline" width="1000"/>
@@ -23,7 +23,7 @@ Afterall, we want to help the struggling youtuber/influencer community by provid
 
 After finding [this](https://www.kaggle.com/datasnaek/youtube-new) dataset in [Kaggle](https://www.kaggle.com/), we thought of leveraging this data to derive meaningful insights. 
 
-The dataset consists of useful but limited details on the trending videos for a span of 205 days across 10 countries. It is describes that "To determine the top-trending videos, YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes)" which is not revealed publicly. Though many interesting explorations were already done by many Kagglers on the same dataset, we identified the opportunity to predict how long videos trend (in other words, video popularity) and identify other behavioural patterns. This was deemed possible by identifying and formulating usecases and solving them by incorporating many more features with API retrieved data, engineering new features, and building efficient models, etc.
+The dataset consists of useful but limited details on the trending videos for a span of 205 days across 10 countries. It is described that "To determine the top-trending videos, YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes)" which is not revealed publicly. Though many interesting explorations were already done by many Kagglers on the same dataset, we identified the opportunity to predict how long videos trend (in other words, video popularity) and identify other behavioural patterns. This was deemed possible by identifying and formulating usecases and solving them by incorporating many more features with API retrieved data, engineering new features, and building efficient models, etc.
 
 ## Data Retrieval and Modelling:
 
