@@ -32,7 +32,7 @@ The Data Retrieval and Modelling of this project are explained in the below ERD(
 
 
 
-Many dataframes were created with this data for various analyses and model building. Because of the file size limits in GitHub, the dataframes were uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle files. Please refer the table below for the details on the files.
+Many dataframes were created with this data for various analyses and model building. Because of the file size limits in GitHub, the dataframes were uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as pickle files. Please refer the table below for the details on the files.
 
 <img src="youtube-trending/Image/FileNames.png" alt="Data_Modelling" width="1000"/>
 
