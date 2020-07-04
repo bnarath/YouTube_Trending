@@ -1,6 +1,6 @@
 # YouTube Trending
 
-**Before we begin, let us introduce some of the most trending videos in youtube across the globe!!!**
+**Before we begin, let us introduce some of the most trending videos on YouTube across the globe!!!**
 
 
 <img src="youtube-trending/Image/Collage_Giffy.gif" alt="Headline" width="1000"/>
@@ -23,7 +23,7 @@ Afterall, we want to help the struggling youtuber/influencer community by provid
 
 After finding [this](https://www.kaggle.com/datasnaek/youtube-new) dataset in [Kaggle](https://www.kaggle.com/), we thought of leveraging this data to derive meaningful insights. 
 
-The dataset consists of useful but limited details on the trending videos for a span of 205 days across 10 countries. It is describes that "To determine the top-trending videos, YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes)" which is not revealed publicly. Though many interesting explorations were already done by many Kagglers on the same dataset, we identified the opportunity to predict how long videos trend (in other words, video popularity) and identify other behavioural patterns. This was deemed possible by identifying and formulating usecases and solving them by incorporating many more features with API retrieved data, engineering new features, and building efficient models, etc.
+The dataset consists of useful but limited details on the trending videos for a span of 205 days across 10 countries. It is described that "To determine the top-trending videos, YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes)" which is not revealed publicly. Though many interesting explorations were already done by many Kagglers on the same dataset, we identified the opportunity to predict how long videos trend (in other words, video popularity) and identify other behavioural patterns. This was deemed possible by identifying and formulating usecases and solving them by incorporating many more features with API retrieved data, engineering new features, and building efficient models, etc.
 
 ## Data Retrieval and Modelling:
 
@@ -32,7 +32,7 @@ The Data Retrieval and Modelling of this project are explained in the below ERD(
 
 
 
-Many dataframes were created with this data for various analyses and model building. Because of the file size limits in GitHub, the dataframes were uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as a pickle files. Please refer the table below for the details on the files.
+Many dataframes were created with this data for various analyses and model building. Because of the file size limits in GitHub, the dataframes were uploaded [here](https://drive.google.com/drive/folders/1ovyTyDPmwY9NIAqOC7C4y1SWwoec3Nmj?usp=sharing) as pickle files. Please refer the table below for the details on the files.
 
 <img src="youtube-trending/Image/FileNames.png" alt="Data_Modelling" width="1000"/>
 
@@ -44,14 +44,14 @@ We separated out the codebase of data modelling and clean-up from analysis and t
 ## Research Questions
 
 1. Regional Analysis: How does trending in different countries impact one another?
-    1. Which countries generate videos that trend on Youtube and which consume them?
+    1. Which countries generate videos that trend on YouTube and which consume them?
     1. How similar or different are the countries based on which videos trend?
     1. Which categories of videos trend more often in different countries? 
     1. What languages are used in trending videos, and how does the distribution by language used compare between countries?
     1. To what categories do trending videos belong to, and how does the distribution by category compare between countries?
    
 
-1. Popularity Analysis: What impacts how long videos trend on Youtube? 
+1. Popularity Analysis: What impacts how long videos trend on YouTube? 
     Factors considered:
      1. Country of viewership 
      1. Video language 
@@ -85,7 +85,7 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 <img src="youtube-trending/Image/Correlation_on_video_watch_with_360217.png" alt="Country_Relationships_Correlation_Matrix" width="500"/>
 
-**It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration across the globe)**
+**It appears that all countries watch mostly distinct videos. When, only countries with at least 10% similarity is taken into account, it shows Canada is similar to all other interconnected countries. This shows cross culture links in Canada (possibly because of welcoming Immigration from across the globe)**
 
 <img src="youtube-trending/Image/country_relations_sc_giffy.gif" alt="Country_Relationships"/>
 
