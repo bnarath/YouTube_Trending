@@ -183,6 +183,17 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 <hr>
 
 
+**We collected all the video descriptions, video titles and video tags for all the videos watched in Canada, removed all the special characters and made a word cloud**
+- **Even though US does not influence what trends in Canada, people living in Canada are still interested in Trump **
+- **This is our first step towards including Natural Language Processing in our analysis**
+
+
+<img src="youtube-trending/Image/canada_wordCloud.png" alt="Word_Cloud_Canada"/>
+
+
+<hr>
+
+
 <br>
 <br>
 
