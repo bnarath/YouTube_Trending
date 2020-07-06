@@ -288,7 +288,7 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=400/> 
+  <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=600/> 
 </p>
 
 <hr>
