@@ -272,22 +272,22 @@ Please refer the codebase for all the analysis [here](youtube-trending/Code/Anal
 
 **Based on the feature selection study, it appears that Boolean Categorical variables are less significant than others. However, the manual chi-square test of independence proved that the popularity depends on all of the boolean variables**
 
-- **Disabling the Ratings, Comments and having Censorship reduces the trending days, as we can see in the distribution plot (moves towards the left)** 
+- **Disabling the Ratings, Comments, having Censorship and Moderating comments reduce the trending days, as we can see in the distribution plot (moves towards the left)** 
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="RatingsDisabled_Vs_Popularity" width=280/>
-  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="CommentsDisabled_Vs_Popularity" width=280/>
-  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Censorship_Vs_Popularity" width=280/> 
+  <img src="youtube-trending/Image/Effect_of_Ratings_Disabled_on_popularity.png" alt="RatingsDisabled_Vs_Popularity" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Comments_disabled_or_Not_on_popularity.png" alt="CommentsDisabled_Vs_Popularity" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Censorship_on_popularity.png" alt="Censorship_Vs_Popularity" width=300/>
+  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="CommentModeration_Vs_popularity" width=300/>
 </p>
 
 <br>
 
-- **Enabling Google Analytics and Moderating comments benefits the popularity, as we can see in the distribution plot (moves towards the right)** 
+- **Enabling Google Analytics benefits the popularity, as we can see in the distribution plot (moves towards the right)** 
 
 
 <p float="left">
-  <img src="youtube-trending/Image/Effect_of_Comment_Moderation_on_popularity.png" alt="CommentModeration_Vs_popularity" width=400/>
   <img src="youtube-trending/Image/Effect_of_Google_Analytics_on_popularity.png" alt="GA_Vs_popularity" width=400/> 
 </p>
 
